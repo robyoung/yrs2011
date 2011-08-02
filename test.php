@@ -13,7 +13,7 @@ class MyStreamer extends Phirehose
 	}
 }
 
-$stream = new MyStreamer("roryoung", "opt1pl3x5", Phirehose::METHOD_FILTER);
+$stream = new MyStreamer("roryoung", "xxxxxx", Phirehose::METHOD_FILTER);
 $stream->setLocations(array(
 	array(-14.2,49.8,2.8,60.2)
 ));
