@@ -32,7 +32,7 @@ def load_all(name):
     return tokens, docs
 
 def tweets():
-    with open(os.join("data", "twitter-stream.json")) as f:
+    with open(os.path.join("data", "twitter-stream.json")) as f:
         for line in f:
             yield json.loads(line)
 
